@@ -1,0 +1,287 @@
+body {
+  padding: 0;
+  margin: 0;
+
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: #222222;
+
+  background: url(img/fs.jpg) no-repeat center top / cover;
+
+  background-color: #ffffff;
+
+  background-position: left bottom;
+
+  background-attachment: fixed;
+}
+a {
+  text-decoration: none;
+}
+div {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1300px;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+/* Header */
+
+header {
+  background-color: #ffffff;
+  box-sizing: border-box;
+  height: 150px;
+  border-radius: 10px 10px 0px 0px;
+  position: relative;
+  top: 20px;
+}
+
+#logo {
+  height: 120px;
+  margin: 10px;
+  float: left;
+}
+
+#logo-hover:hover {
+  opacity: 0.9;
+}
+
+#textlogo {
+  line-height: 5px;
+  padding: 2%;
+  max-width: 40%;
+}
+
+#textlogo h1 {
+  font-weight: 100;
+  color: rgb(82, 82, 82);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+/*header menu*/
+nav {
+  float: right;
+  margin-top: 3%;
+  max-width: 60%;
+}
+.menu {
+  padding: 0;
+  margin: 0;
+ 
+}
+.menu li {
+  float: left;
+  display: block;
+
+}
+.menu a {
+  color: rgb(122, 116, 116);
+  text-decoration: none;
+  text-transform: uppercase;
+  margin: 5px;
+  font-size: 14px;
+}
+
+nav button {
+  background-color: white;
+  border: solid white 1px;
+  border-radius: 5px;
+  margin: 2px;
+}
+
+nav button:hover {
+  background-color: rgb(212, 216, 253);
+  border: solid silver 1px;
+}
+
+/* owl text */
+
+.owl-carousel {
+  position: relative;
+  top: 20px;
+}
+.text-block {
+  position: absolute;
+  bottom: 40%;
+  left: 10%;
+  color: rgb(255, 255, 255);
+  padding-left: 2%;
+  padding-right: 2%;
+  float: left;
+  background-color: rgba(0, 0, 0, 0.4);
+  max-width: 50%;
+}
+
+/* information */
+
+.info {
+  background-color: white;
+
+  padding: 2%;
+ 
+
+  /* position: relative;
+  bottom: 25px; */
+}
+
+.infoitem {
+  background-color: #f8f8f8;
+  padding: 2%;
+  border: solid silver 1px;
+  border-radius: 0 3px 3px 0;
+  margin-top: 20px;
+
+ 
+  
+}
+.text {
+  width: 100%;
+}
+
+.infoitem {
+  border-left: 5px solid #0d6da5;
+}
+
+.button button {
+  background-color: #0d6da5;
+  border: none;
+  border-radius: 5px;
+  width: 200px;
+}
+
+.button button:hover {
+  background-color: #003b73;
+}
+.button button h3 {
+  color: seashell;
+}
+
+/* fotter */
+
+.footer {
+  background-color: #333;
+  /* position: relative;
+  bottom: 25px; */
+  padding: 40px;
+}
+
+#heading {
+  color: #d0d2d5;
+  border-bottom: 10px violet;
+}
+
+.contacts {
+  color: #9b9fa3;
+}
+footer p {display: inline;
+}
+
+footer {
+  box-sizing: border-box;
+  background-color: rgb(46, 44, 44);
+
+  padding: 2%;
+  padding-left: 35px;
+}
+#kawa {float: right;
+  margin: 0;
+  color: #9b9fa3; 
+  
+  /* position: relative;
+  bottom: 25px; */
+  padding: 5px;
+  padding-left: 35px;
+  
+}
+
+/* prices */
+
+.prices {
+  box-sizing: border-box;
+  background-color: rgb(255, 255, 255);
+}
+
+#priceheading {
+  background-color: #eeeeee;
+  border: solid #e6e5e5;
+  padding: 2%;
+  max-height: 100px;
+}
+
+#priceheading h1 {
+  margin-top: 0;
+}
+
+.main {
+  padding: 20px;
+}
+
+.main table {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* pay */
+
+#liqpay img:hover {
+  opacity: 0.5;
+}
+
+/* adapt */
+
+@media screen and (max-width: 1024px) {
+  body {
+    box-sizing: border-box;
+  }
+  #kawa {display: none;}
+
+  .container {
+    width: 100%;
+    margin-top: 0%;
+    border-radius: 0 0 0 0;
+  }
+
+  header {
+    border-radius: 0mm;
+    padding: 1%;
+    height: 200px;
+    box-sizing: border-box;
+    margin-top: -20px;
+  }
+  #logo {
+    height: 50%;
+    float: none;
+   
+
+  }
+  #textlogo {
+   display: none;
+  }
+
+  footer {
+    margin: 0;
+  }
+  #liqpay img {
+    width: 100%;
+  }
+  #priceheading  {margin-top: 20px;}
+ nav {max-width: 100%;
+  
+}
+.text-block {max-width: 100%;
+  position: absolute;
+  bottom: 1%;
+  left: 1%;
+  font-size: 0.8em;
+}
+}
+@media screen and (max-width: 1000px)
+ {
+  #logo { display: block;
+    margin-left: auto;
+    margin-right: auto; }
+    #kawa {display: none;}
+ }
